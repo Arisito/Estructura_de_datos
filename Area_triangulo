@@ -1,0 +1,21 @@
+// Primerote.cpp : el area de un triangulo
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+   float altura,base,area;
+  
+   cout<<"Ingrese la base del triangulo"<<endl;
+   cin>>base;
+   cout<<"Ingrese la altura del triangulo"<<endl;
+   cin>>altura;
+   area = (base*altura)/2;
+   cout<<"El area es: "<<area;
+   getch();
+}
