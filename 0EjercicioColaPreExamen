@@ -1,0 +1,49 @@
+class Cola:
+    def __init__(self):
+        self.items=[]
+    def encolar(self, x):
+        self.items.append(x)
+    def desencolar(self):
+        try:
+            return self.items.pop(0)
+        except:
+            raise ValueError("La cola esta vacia")
+    def es_vacia(self):
+        return self.items == []
+    def es_impar(self, x):
+        if (x % 2 != 0):
+            c.encolar(x)
+    def mostrarCola(self, x):
+        x=print(self)
+    def mostrarElementos(self, x):
+        x=print(c(len))
+x= 0               
+op=" "
+c= Cola()
+c.encolar(5)
+c.encolar(7)
+c.encolar(3)
+while op!="s" and op!="S":
+    print("---------------------------------------------------------------")
+    print("                           MENU                                ")
+    print("---------------------------------------------------------------")
+    print(" (E)ncolar a la cola. ")
+    print(" (D)esencolar de la cola. ")
+    print(" (M)ostrar la cola. ")
+    print("  m(O)strar cuantos elementos tiene la cola")
+    print(" (S)alir. ")
+    op=input(" Que opcion desea")
+    
+    if op == "E" or op == "e":
+        if i in range(x)
+            c.encolar(input("Ingrese lo desea agregar a la cola. "))
+
+    if op == "D" or op == "d":
+        c.desencolar(0)
+        
+    if op == "M" or op == "m":
+        c.mostrarCola(x)
+        
+    if op == "O" or op == "o":
+        c.mostrarElementos(x)
+      
